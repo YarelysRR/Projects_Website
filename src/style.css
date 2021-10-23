@@ -90,6 +90,10 @@ p {
     flex-wrap: wrap;
     justify-content: center;
   }
+  .launch_button a {
+    width: 300px;
+    text-align: center;
+  }
 
   .navbar {
     text-align: center;
