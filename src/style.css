@@ -95,11 +95,7 @@ p {
     text-align: center;
   }
 
-  .navbar {
-    text-align: center;
-  }
-
-  img {
+  .img-mob {
     display: none;
   }
 }
