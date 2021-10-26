@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin: 100px 0;
 }
 
 h1 {
@@ -62,11 +62,19 @@ p {
   color: white;
 }
 
+.contact_me:hover {
+  color: white;
+}
+
 .launch_button a {
   padding: 25px 15px;
   text-decoration: none;
   margin: 10px;
   border-radius: 4px;
+}
+
+.lbut_text:hover {
+  color: white;
 }
 
 .myemail_link {
@@ -82,6 +90,14 @@ p {
 }
 
 @media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
   .mobile,
   .launch_button {
     width: 90%;
